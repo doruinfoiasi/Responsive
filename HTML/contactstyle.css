@@ -1,0 +1,121 @@
+a{
+    font-size: 400%;
+      color: darkgray;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:lightslategray;
+  height: 1px;
+}
+
+h1{
+    font-size: 400%;
+    text-align: center;
+    color:gray;
+}
+
+.fill{
+ background-image: url("stripe_2b0864d249d18577a012dfe39d704404.png");
+ height: 10em;
+ margin-left: 1.8em;
+}
+
+input{
+    height: 5em;
+    font-size: 200%;
+    font-weight: 600;
+    margin-top: 3%;
+    border: 1px solid gray;
+}
+
+input[type="textbox"]{
+    height: 10em;
+    font-size: 200%;
+    font-weight: 600;
+    margin-top: 3%;
+    text-align: left;
+    border: 1 px solid gray;
+    
+}
+
+.buttons{
+    background-color: dimgrey;
+    color:lightgrey;
+}
+
+#footer{
+    background-color: blanchedalmond;
+}
+
+.footer h2,.footer h4{
+    color: whitesmoke;
+}
+
+div img{
+    float: right;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+#twlogo{
+    margin-right: 0px;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    #name, #email, #website{
+        margin-left:8%;
+    }
+    
+    #headimg{
+    }
+    
+    .contactwrapper{
+        margin-left:5%;
+    }
+    
+    #email{
+        margin-left:5%;
+    }
+    
+    #website{
+        margin-left:4%;
+    }
+    #contactus{
+       text-align: center;
+       font-size: 500%:
+    }
+    
+    #fblogo{
+        margin-top: ;
+    }
+    
+    
+}
+
+@media(max-width:767px){
+    h1{
+        font-size: 200%;
+    }
+    .fill{
+        margin: 0px;
+        height: 5em;
+    }
+    
+    .contactwrapper{
+       margin-left: 8%;
+    }
+    
+    a{
+        font-size:200%;
+    }
+        
+    #fblogo,#twlogo{
+        width:10%;
+        height: 10%;
+    }
+   
+}

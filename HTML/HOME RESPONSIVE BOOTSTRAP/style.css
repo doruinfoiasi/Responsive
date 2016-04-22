@@ -1,0 +1,29 @@
+.container{
+    background-color:white;
+}
+
+#icons{
+    float:right;
+}
+
+span img{
+    width: 128px;
+    height: 64;
+    display: inline-block;
+}
+
+#lw{
+    text-align: center;
+}
+
+div h3 {
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+}
+
+h3{
+    
+}

@@ -1,0 +1,120 @@
+body{
+background-color: white;
+z-index: -1;
+}
+
+#footer{
+    background-color:gainsboro;
+}
+
+#main{
+    margin: 20px;
+}
+
+#headerphoto{
+    margin-left: 20%;
+}
+
+#right{
+    float: right;
+    display: none;
+}
+
+.logos{
+    float:right;
+}
+.page{
+    position: relative;
+    width: 40%;
+    background-color: #ffffff;
+    height: 100%;
+    z-index: 1;
+    left:50%;
+    margin-left:-20%; /* -1/2 width */
+    
+}
+
+#header{
+    width: 70%;
+}
+
+#logos{
+    position: relative;
+    left: 75%;
+}
+
+#latestworktitle,#whoarewe{
+    position: relative;
+    text-align: center;
+    color:darkgray;
+}
+
+#latestwork img{
+margin: 11px;
+}
+
+p{
+font-family: 'Source Sans Pro', sans-serif;
+color: #4b4b4b;
+}
+
+#whoarewe1,#whoarewe2 {
+    width:45%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#whoarewe1 img{
+    margin-left: 80px;
+}
+
+#whoarewe2 img{
+    margin-left: 80px;
+}
+
+#footer p{
+  font-weight: bold;
+    color: white;
+}
+
+h3{
+text-align: center;
+    color:lightgray !important;
+}
+
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+  #latestwork img{
+        width: 80%;
+        padding-left: 5%; 
+    }
+    #whoarewediv div{
+        width: 100%;
+    }
+    div p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .imgquery{
+       margin-right: 70%;
+       border: 5px solid gray;
+        width: 30%;
+    }
+    
+    span p{
+        width:100%;
+    }
+
+    #main{
+        width: 100%;
+    }
+    
+    #firstimg{
+        width: 80%;
+        padding-left: 5%;
+    }
+}
+@media screen and (max-width: 699px) and (min-width: 520px) {
+}
